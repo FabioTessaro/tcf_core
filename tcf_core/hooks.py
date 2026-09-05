@@ -8,18 +8,32 @@ app_license = "agpl-3.0"
 # Apps
 # ------------------
 
-# required_apps = []
+required_apps = ["frappe", "drive", "meet", "raven"]
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "tcf_core",
-# 		"logo": "/assets/tcf_core/logo.png",
-# 		"title": "TCF CORE",
-# 		"route": "/tcf_core",
-# 		"has_permission": "tcf_core.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "TCF Drive",
+		"logo": "/assets/tcf_core/icons/palette-1/app-drive.png",
+		"title": "Drive",
+		"route": "/drive",
+		"has_permission": "drive.api.product.access_app",
+	},
+	{
+		"name": "TCF Meet",
+		"logo": "/assets/tcf_core/icons/palette-1/app-meet.png",
+		"title": "Meet",
+		"route": "/meet",
+		"has_permission": "meet.api.permission.has_app_permission",
+	},
+	{
+		"name": "TCF Raven",
+		"logo": "/assets/tcf_core/icons/palette-1/app-raven.png",
+		"title": "Raven",
+		"route": "/raven",
+		"has_permission": "raven.permissions.check_app_permission",
+	},
+]
 
 # Includes in <head>
 # ------------------
@@ -261,4 +275,3 @@ after_install = "tcf_core.install.after_install"
 # ------------
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
-
