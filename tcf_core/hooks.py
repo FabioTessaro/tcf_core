@@ -86,7 +86,7 @@ app_license = "agpl-3.0"
 # ------------
 
 # before_install = "tcf_core.install.before_install"
-# after_install = "tcf_core.install.after_install"
+after_install = "tcf_core.install.after_install"
 
 # Uninstallation
 # ------------
