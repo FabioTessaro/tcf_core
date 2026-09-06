@@ -1,0 +1,21 @@
+{
+ "app": "tcf_core",
+ "bg_color": "gray",
+ "creation": "2026-09-07 00:11:09.170494",
+ "docstatus": 0,
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon_type": "App",
+ "idx": 0,
+ "label": "Raven",
+ "link": "/raven",
+ "link_type": "External",
+ "logo_url": "/assets/tcf_core/icons/palette-1/app-raven.png",
+ "modified": "2026-09-06 20:57:32.157864",
+ "modified_by": "Administrator",
+ "name": "Raven",
+ "owner": "Administrator",
+ "restrict_removal": 0,
+ "roles": [],
+ "standard": 1
+}

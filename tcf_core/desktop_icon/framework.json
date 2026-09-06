@@ -1,0 +1,20 @@
+{
+ "app": "tcf_core",
+ "creation": "2025-11-20 13:36:37.227388",
+ "docstatus": 0,
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon_type": "App",
+ "idx": 0,
+ "label": "Framework",
+ "link": "/desk/build",
+ "link_type": "External",
+ "logo_url": "/assets/tcf_core/icons/palette-1/app-core.png",
+ "modified": "2026-09-06 20:59:49.828733",
+ "modified_by": "Administrator",
+ "name": "Framework",
+ "owner": "Administrator",
+ "restrict_removal": 0,
+ "roles": [],
+ "standard": 1
+}

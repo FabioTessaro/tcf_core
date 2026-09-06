@@ -18,22 +18,22 @@ required_apps = ["frappe", "drive", "meet", "raven"]
 # 		"title": "Drive",
 # 		"route": "/drive",
 # 		"has_permission": "drive.api.product.access_app",
-# 	},
-# 	{
-# 		"name": "TCF Meet",
-# 		"logo": "/assets/tcf_core/icons/palette-1/app-meet.png",
-# 		"title": "Meet",
-# 		"route": "/meet",
-# 		"has_permission": "meet.api.permission.has_app_permission",
-# 	},
-# 	{
-# 		"name": "TCF Raven",
-# 		"logo": "/assets/tcf_core/icons/palette-1/app-raven.png",
-# 		"title": "Raven",
-# 		"route": "/raven",
-# 		"has_permission": "raven.permissions.check_app_permission",
-# 	},
+# 	}
 # ]
+
+# Fixtures
+# ------------
+
+fixtures = [
+	{
+		"dt": "Desktop Icon",
+		"filters": [["app", "in", ["tcf_core"]]],
+	},
+	{
+		"dt": "Desktop Layout",
+		"filters": [["user", "in", ["Administrator"]]],
+	},
+]
 
 # Includes in <head>
 # ------------------
