@@ -7,7 +7,10 @@ from frappe.website.page_renderers.base_renderer import BaseRenderer
 ALLOWED_PREFIXES = {
 	"",
 	"desk",
+	"drive",
+	"meet",
 	"login",
+	"raven",
 	"update-password",
 	"reset-password",
 	"printview",
