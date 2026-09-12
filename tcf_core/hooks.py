@@ -67,6 +67,10 @@ fixtures = [
 # include app icons in desk
 # app_include_icons = "tcf_core/public/icons.svg"
 
+# Renderer
+# ----------
+page_renderer = "tcf_core.website.portal_gate.TCFPortalGate"
+
 # Home Pages
 # ----------
 
