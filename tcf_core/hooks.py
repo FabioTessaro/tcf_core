@@ -69,7 +69,7 @@ fixtures = [
 
 # Renderer
 # ----------
-page_renderer = "tcf_core.website.portal_gate.TCFPortalGate"
+# page_renderer = "tcf_core.website.portal_gate.TCFPortalGate"
 
 # Home Pages
 # ----------
